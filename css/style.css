@@ -36,13 +36,11 @@ main {
   justify-content: center;
 }
 
-.presentation{
-  
 
 
-  
-}
 .tittle {
+  display: flex;
+  justify-content: center;
 
 }
 
@@ -54,14 +52,10 @@ main {
   font-size: 30px;
  
 }
-.img-tittle{
 
-  
-}
 .img-tittle img{
-  width: 1200px;
-  
-  
+  width: 945px;
+ 
 }
 
 .facebook-icon{
@@ -70,4 +64,28 @@ main {
 }
 .img-tittle div{
   max-width: 600px;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+.social-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top:10px ;
+}
+
+img.coments-info{
+  height: 27px;
+}
+.social-icons{
+  align-items: center;
+  display: flex;
+}
+.info .iconify{
+  font-size:11px;
+  margin-right: 10px;
 }
