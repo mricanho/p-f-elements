@@ -17,15 +17,13 @@ body{
 }
 
 .nav-bar .left-side {
+  display: flex;
   width: 300px;
   margin: 10px;
   justify-content: space-evenly;
 }
 
-.nav-bar .left-side .iconify {
-  position: relative;
-  top: -2px;
-}
+
 
 .nav-bar .right-side button {
   background-color: #326891;
@@ -33,4 +31,16 @@ body{
   border-radius: 5px;
   padding: 10px;
   font-weight: bold;
+}
+
+.tittle{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.tittle h1{
+ 
+  font-weight: 1000;
+ 
 }
