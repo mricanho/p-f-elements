@@ -1,0 +1,36 @@
+body{
+  font-family: 'Libre Franklin', sans-serif; 
+}
+
+.pointer {
+  cursor: pointer;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 150px;
+  align-items: center;
+}
+
+.nav-bar .center img {
+  width: 200px;  
+}
+
+.nav-bar .left-side {
+  width: 300px;
+  margin: 10px;
+  justify-content: space-evenly;
+}
+
+.nav-bar .left-side .iconify {
+  position: relative;
+  top: -2px;
+}
+
+.nav-bar .right-side button {
+  background-color: #326891;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+}
