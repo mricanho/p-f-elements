@@ -16,6 +16,7 @@ a {
   width: 100%;
   background-color: white;
   margin: 0;
+  z-index: 999;
 }
 
 .container hr {
@@ -29,7 +30,6 @@ a {
   padding: 2px 20px 0 5px;
   align-items: center;
   justify-content: space-between;
-  z-index: 999;
 }
 
 .nav-bar .left-side {
@@ -201,5 +201,20 @@ article a {
 .unlock-articles{
   display: grid;
   justify-content: center;
-  background-color:;
+ }
+
+ .unlock-articles .link-account {
+   font-size: 14px;
+   font-weight: bolder;
+   text-align: center;
+ }
+
+ .unlock-articles .link-account a {
+   text-decoration: none;
+   display: block;
+   margin-top: 5px;
+ }
+
+ .first-article h2 {
+   font-weight: bold;
  }
