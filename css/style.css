@@ -9,6 +9,10 @@ a {
   color: black;
 }
 
+b{
+  font-weight: bold;
+}
+
 .pointer {
   cursor: pointer;
 }
@@ -240,6 +244,10 @@ article a {
 }
 .title-inflation h2{
   font-weight: bold;
+  margin-bottom: auto;
+}
+.title-inflation p{
+  font-size: 12px;
 }
 
 .inflation-backgorund {
@@ -263,12 +271,11 @@ article a {
 }
 .grid-inflation p{
   margin-left:10px;
-  font-size: 14px;
+  font-size: 12px;
   text-align: justify;
 }
-b{
-  font-weight: bold;
-}
+
 .barr-by{
  width: 60px;
 }
+
