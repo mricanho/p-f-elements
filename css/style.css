@@ -533,6 +533,27 @@ article .final-icons {
   flex: 1 1 0%;
 }
 
-.bottom-section .site-index-sections .directory .news {
-  
+footer {
+  display: block;
+  max-width: 80%;
+  align-items: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-top: 1px solid rgb(243, 243, 243);
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+    
+footer nav{
+  display: block;
+  font-size: 10px;
+  font-weight: 400;
+  text-align: center;
+  color: #666;
+}
+    
+footer nav ul{
+  display: flex;
+  justify-content: space-around;
 }
