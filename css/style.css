@@ -1,6 +1,7 @@
 body{
   font-family: 'Libre Franklin', sans-serif; 
   background: white;  
+  
 }
 
 a {
@@ -28,6 +29,7 @@ a {
   padding: 2px 20px 0 5px;
   align-items: center;
   justify-content: space-between;
+  z-index: 999;
 }
 
 .nav-bar .left-side {
@@ -60,6 +62,7 @@ a {
 section {
   display: flex;
   justify-content: center;
+  
 }
 
 .presentation {
@@ -142,7 +145,7 @@ section {
   margin-right: 10px;
 }
 
-.container {
+.general-container {
   display: flex;
   justify-content: center;
 }
@@ -155,21 +158,24 @@ article .article-container{
   width: 1200px;
   margin-top: 20px;
   display: flex;
+  
 }
 article a {
   text-decoration: underline;
-  color: #326891;  
+  color: #326891; 
+   
 }
 .first-article{
   margin-left: 25%;
   width: 600px;
+  
 }
 .editors-pick{
   flex-direction: column;
   display: flex;
   max-width: 210px;
   justify-content: center;
-  margin-left: 10%;
+  margin-left: 5%;
 }
 .img-editors {
   width: 75px;
@@ -179,4 +185,8 @@ article a {
 .articles-editor{
   display: flex;
   
+}
+.unlock-articles{
+  display: flex;
+  justify-content: center;
 }
