@@ -142,19 +142,41 @@ section {
   margin-right: 10px;
 }
 
-article {
+.container {
   display: flex;
   justify-content: center;
 }
+
 
 article .article-container{
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 20px;
   font-weight: 400;
-  width: 600px;
+  width: 1200px;
   margin-top: 20px;
+  display: flex;
 }
-article a{
+article a {
   text-decoration: underline;
   color: #326891;  
+}
+.first-article{
+  margin-left: 25%;
+  width: 600px;
+}
+.editors-pick{
+  flex-direction: column;
+  display: flex;
+  max-width: 210px;
+  justify-content: center;
+  margin-left: 10%;
+}
+.img-editors {
+  width: 75px;
+  height: 75px;
+}
+
+.articles-editor{
+  display: flex;
+  
 }
