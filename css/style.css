@@ -345,8 +345,8 @@ padding: 20px;
   display: grid;
   grid-template-columns: repeat(3,1fr);
   gap: 15px;
-  
 }
+
 .news-suggested{
   border: #666 solid 1px;
   padding: 12px;
@@ -398,6 +398,13 @@ margin-top: -12px;
   border: none;
   font-size: 15px;
   }
+  .more-space{
+    font-size: 15px;
+    padding: 10px 0;
+  }
+  .grid-space p{
+    cursor: pointer;
+  }
   .grid-space{
     display: grid;
     grid-template-columns:repeat(3,1fr);
@@ -417,6 +424,46 @@ margin-top: -12px;
     columns: #bbb8b8;
   }
   .space-suggested .p2{
+    font-size: 10px;
+    columns: #bbb8b8;
+  }
+  .paid-img{
+    height: 181px;
+  }
+  .paid-st{
+    font-size:8px;
+    font-weight: bolder;
+
+  }
+  #paid-logo{
+    height: 25px;
+   width: auto;
+    
+  }
+  .editors-tittle{
+    font-size: 15px;
+    padding: 10px 0;
+    font-weight: bold;
+  }
+  .grid-editors p{
+    cursor: pointer;
+  }
+  .grid-editors{
+    width: 852px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+  }
+
+  .grid-editors img{
+    width: 100%;
+  }
+  .grid-editors div .p1{
+    text-align: right;
+    font-size: 10px;
+    columns: #bbb8b8;
+  }
+  .grid-editors div .p2{
     font-size: 10px;
     columns: #bbb8b8;
   }
