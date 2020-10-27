@@ -177,6 +177,9 @@ article a {
   justify-content: center;
   margin-left: 5%;
 }
+.editors-pick hr{
+  width: 100%;
+}
 .img-editors {
   width: 75px;
   height: 75px;
@@ -186,7 +189,12 @@ article a {
   display: flex;
   
 }
-.unlock-articles{
-  display: flex;
-  justify-content: center;
+
+.barr-h hr{
+  width: 40px;
 }
+.unlock-articles{
+  display: grid;
+  justify-content: center;
+  background-color:;
+ }
