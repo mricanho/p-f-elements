@@ -66,7 +66,7 @@ article button {
   letter-spacing: .05em;
 }
 
-section {
+.main {
   display: flex;
   justify-content: center;
 
@@ -325,3 +325,98 @@ article .final-icons {
   display: flex;
   justify-content: space-between;
 }
+.last-section{
+  display:flex;
+  justify-content: center;
+  margin-top: 50px;
+  
+}
+.suggested{
+  border-top: black 2px solid;
+  width: 852px;
+  margin-right: 40px;
+}
+.suggested-tittle{
+  display:flex;
+justify-content: space-around;
+padding: 20px;
+}
+.grid-suggested{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 15px;
+  
+}
+.news-suggested{
+  border: #666 solid 1px;
+  padding: 12px;
+}
+.news-suggested .p1{
+  font-size: 11px;
+}
+.img-icon{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.suggested-img{
+  width: 82px;
+}
+.suggested-check{
+  font-size: 45px;
+}
+.news-suggested h2{
+margin-top: -12px;
+}
+.news-suggested a{
+  margin-top: -24px;
+}
+.most-popular{
+  width: 315px;
+  display: grid;
+  row-gap: 20px;
+}
+.most-popular >*{
+  border-bottom: 1px rgb(209, 206, 206) solid;
+  padding-bottom:10px;
+}
+.most-popular h2{
+  border-top:black solid 1px ;
+  padding: 20px;
+}
+
+.sign-up{
+  display: flex;
+  justify-content: center;
+  }
+  .sign-up button{
+  margin: 25px;
+  width: 270px;
+  height: 37px;
+  background-color: black;
+  border: none;
+  font-size: 15px;
+  }
+  .grid-space{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    width: 852px;
+    column-gap: 20px;
+    row-gap: 80px;
+  }
+  .grid-space img{
+    width: 100%;
+  }
+  .space-suggested{
+    width: 272px;
+  }
+  .space-suggested .p1{
+    text-align: right;
+    font-size: 10px;
+    columns: #bbb8b8;
+  }
+  .space-suggested .p2{
+    font-size: 10px;
+    columns: #bbb8b8;
+  }
