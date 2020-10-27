@@ -180,9 +180,14 @@ article a {
 .editors-pick hr{
   width: 100%;
 }
+.editors-pick p{
+  font-size: 14px;
+  margin-left: 10px;
+}
 .img-editors {
   width: 75px;
   height: 75px;
+  margin-bottom: 10px;
 }
 
 .articles-editor{
