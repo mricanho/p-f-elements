@@ -51,7 +51,8 @@ b{
   width: 230px;
 }
 
-.nav-bar .right-side button {
+.nav-bar .right-side button,
+article button {
   background-color: rgb(86, 123, 149);
   border-color: 1px solid rgb(50, 104, 145);
   color: white;
@@ -279,3 +280,48 @@ article a {
  width: 60px;
 }
 
+.first-article .video p {
+  display: inline-block;
+  color: #666;
+}
+.first-article .video .p1 {
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.first-article .video .p2 {
+  font-size: 12px;
+}
+
+.telescope-container img{
+  width: 600px;
+}
+
+.telescope-container p{
+  display: inline;
+  color: #666;
+}
+
+.telescope-container .p1{
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.telescope-container .p2 {
+  font-size: 12px;
+}
+
+.bottom-text {
+  color: #666;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.bottom-text a{
+  color: #666;
+}
+
+article .final-icons {
+  display: flex;
+  justify-content: space-between;
+}
