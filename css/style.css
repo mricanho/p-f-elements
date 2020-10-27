@@ -1,16 +1,18 @@
-body{
-  font-family: 'Libre Franklin', sans-serif; 
-  background: white;  
-  
+body {
+  font-family: 'Libre Franklin', sans-serif;
+  background: white;
+
 }
 
 a {
   text-decoration: none;
   color: black;
 }
+
 .pointer {
   cursor: pointer;
 }
+
 .container {
   position: fixed;
   width: 100%;
@@ -38,11 +40,11 @@ a {
   width: 240px;
   margin: 10px;
   justify-content: space-around;
-  font-weight: 650;  
+  font-weight: 650;
 }
 
 .nav-bar .center img {
-  width: 230px;  
+  width: 230px;
 }
 
 .nav-bar .right-side button {
@@ -62,7 +64,7 @@ a {
 section {
   display: flex;
   justify-content: center;
-  
+
 }
 
 .presentation {
@@ -75,7 +77,7 @@ section {
 
 }
 
-.tittle h1{
+.tittle h1 {
   width: 600px;
   font-weight: 600;
   text-align: left;
@@ -86,15 +88,16 @@ section {
   font-family: 'Merriweather', serif;
 }
 
-.img-tittle img{
+.img-tittle img {
   width: 980px;
 }
 
-.facebook-icon{
- border: 20x solid black;
-  
+.facebook-icon {
+  border: 20x solid black;
+
 }
-.img-tittle div{
+
+.img-tittle div {
   max-width: 600px;
 }
 
@@ -107,17 +110,18 @@ section {
   display: inline;
   color: #666;
 }
+
 .description .p1 {
   font-size: 10px;
 }
 
-.description .p2{
+.description .p2 {
   font-size: 9px;
 }
 
-.info{
-  display: flex; 
-  justify-content: center;  
+.info {
+  display: flex;
+  justify-content: center;
 }
 
 .presentation .info .by-info {
@@ -125,23 +129,23 @@ section {
   font-size: 15px;
 }
 
-.social-info{
+.social-info {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;	  
-  margin-top:10px ;
+  justify-content: space-between;
+  margin-top: 10px;
   width: 600px;
   font-size: 13px;
   align-items: center;
 }
 
-.presentation .info .social-icons{
+.presentation .info .social-icons {
   align-items: center;
   display: flex;
 }
 
-.presentation .info .iconify{
-  font-size:20px;
+.presentation .info .iconify {
+  font-size: 20px;
   margin-right: 10px;
 }
 
@@ -151,70 +155,120 @@ section {
 }
 
 
-article .article-container{
+article .article-container {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 20px;
   font-weight: 400;
   width: 1200px;
   margin-top: 20px;
   display: flex;
-  
+
 }
+
 article a {
   text-decoration: underline;
-  color: #326891; 
-   
+  color: #326891;
+
 }
-.first-article{
+
+.first-article {
   margin-left: 25%;
   width: 600px;
-  
+
 }
-.editors-pick{
+
+.editors-pick {
   flex-direction: column;
   display: flex;
   max-width: 210px;
   justify-content: center;
   margin-left: 5%;
 }
-.editors-pick hr{
+
+.editors-pick hr {
   width: 100%;
 }
-.editors-pick p{
+
+.editors-pick p {
   font-size: 14px;
   margin-left: 10px;
 }
+
 .img-editors {
   width: 75px;
   height: 75px;
   margin-bottom: 10px;
 }
 
-.articles-editor{
+.articles-editor {
   display: flex;
-  
+
 }
 
-.barr-h hr{
+.barr-h hr {
   width: 40px;
 }
-.unlock-articles{
+
+.unlock-articles {
   display: grid;
   justify-content: center;
- }
+}
 
- .unlock-articles .link-account {
-   font-size: 14px;
-   font-weight: bolder;
-   text-align: center;
- }
+.unlock-articles .link-account {
+  font-size: 14px;
+  font-weight: bolder;
+  text-align: center;
+}
 
- .unlock-articles .link-account a {
-   text-decoration: none;
-   display: block;
-   margin-top: 5px;
- }
+.unlock-articles .link-account a {
+  text-decoration: none;
+  display: block;
+  margin-top: 5px;
+}
 
- .first-article h2 {
-   font-weight: bold;
- }
+.first-article h2 {
+  font-weight: bold;
+}
+
+.inflation-theory {
+  display: flex;
+  justify-content: center;
+}
+
+.title-inflation {
+  width: 945px;
+}
+.title-inflation h2{
+  font-weight: bold;
+}
+
+.inflation-backgorund {
+  display: flex;
+  justify-content: center;
+}
+
+.inflation-backgorund img {
+  width: 945px;
+}
+
+
+.grid-inflation {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 240px);
+  grid-template-rows: repeat(4, 150px);
+  top: -570px;
+  justify-content: center;
+  margin-bottom: -570px;
+}
+.grid-inflation p{
+  margin-left:10px;
+  font-size: 14px;
+  text-align: justify;
+}
+b{
+  font-weight: bold;
+}
+.barr-by{
+ width: 60px;
+}
