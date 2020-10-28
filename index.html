@@ -63,7 +63,7 @@
             <div>
               <p class="date-article">March 17, 2014</p>
             </div>
-            <div class="social-icons">
+            <div class="social-icons pointer">
               <span class="iconify facebook-icon" data-icon="fa:facebook" data-inline="false"></span>
               <span class="iconify twitter" data-icon="ant-design:twitter-outlined" data-inline="false"></span>
               <span class="iconify email" data-icon="clarity:email-solid" data-inline="false"></span>
@@ -337,7 +337,7 @@
               Reprints</a> | <a href="#">Today’s Paper</a> | <a href="#">Subscribe</a></p>
           <div class="final-icons">
             <button class="read pointer">READ 615 COMMENTS</button>
-            <div class="social-icons">
+            <div class="social-icons pointer">
               <span class="iconify facebook-icon" data-icon="fa:facebook" data-inline="false"></span>
               <span class="iconify twitter" data-icon="ant-design:twitter-outlined" data-inline="false"></span>
               <span class="iconify email" data-icon="clarity:email-solid" data-inline="false"></span>
@@ -519,16 +519,16 @@
 
       <aside class="most-popular">
         <h2>Most popular</h2>
-        <p><a>Trump Had One Last Story to Sell. The Wall Street Journal Wouldn’t Buy It.</a></p>
-        <p>Sex Cult Leader, Facing Life Sentence, Regrets Nothing</p>
-        <p>My Adult Son Moved In. It’s a Nightmare. Can I Kick Him Out?</p>
-        <p>Times Square Billboards With Ivanka Trump and Jared Kushner Stir Skirmish</p>
-        <p>While Her Father Rails Against ‘Idiot’ Scientists, Ivanka Trump Talks Ice Cream</p>
-        <p>Kushner, Employing Racist Stereotype, Questions if Black Americans ‘Want to Be Successful’</p>
-        <p>The Erasure of Mesut Özil</p>
-        <p>Opinion: Is It Safe to Ask Whether Trump’s Days Are Numbered?</p>
-        <p>Opinion: The Republican Party’s Supreme Court</p>
-        <p>Justice Dept. Blocked in Bid to Shield Trump From Rape Defamation Suit</p>
+        <p class="pointer">Trump Had One Last Story to Sell. The Wall Street Journal Wouldn’t Buy It.</p>
+        <p class="pointer">Sex Cult Leader, Facing Life Sentence, Regrets Nothing</p>
+        <p class="pointer">My Adult Son Moved In. It’s a Nightmare. Can I Kick Him Out?</p>
+        <p class="pointer">Times Square Billboards With Ivanka Trump and Jared Kushner Stir Skirmish</p>
+        <p class="pointer">While Her Father Rails Against ‘Idiot’ Scientists, Ivanka Trump Talks Ice Cream</p>
+        <p class="pointer">Kushner, Employing Racist Stereotype, Questions if Black Americans ‘Want to Be Successful’</p>
+        <p class="pointer">The Erasure of Mesut Özil</p>
+        <p class="pointer">Opinion: Is It Safe to Ask Whether Trump’s Days Are Numbered?</p>
+        <p class="pointer">Opinion: The Republican Party’s Supreme Court</p>
+        <p class="pointer no">Justice Dept. Blocked in Bid to Shield Trump From Rape Defamation Suit</p>
 
       </aside>
     </section>
@@ -544,14 +544,14 @@
       <div class="homepage">
         <a href="#">Go to Home Page</a>
       </div>
-
     </header>
+
     <div class="site-index-sections">
       <div class="directory">
         <section class="news">
-          
+          <h3>NEWS</h3>
           <ul>
-            <li><h3>NEWS</h3></li>
+
             <li>
               <a href="#">Home Page</a>
             </li>
@@ -592,11 +592,9 @@
               <a href="#">Corrections</a>
             </li>
           </ul>
-
-
         </section>
+
         <section class="opinion">
-          
           <ul>
             <li>
               <h3>OPINION</h3>
@@ -627,7 +625,9 @@
         </section>
         <section class="arts">
           <ul>
-            <li><h3>ARTS</h3></li>
+            <li>
+              <h3>ARTS</h3>
+            </li>
             <li>
               <a href="#">Today's Arts</a>
             </li>
@@ -663,7 +663,9 @@
         </section>
         <section class="living">
           <ul>
-            <li><h3>LIVING</h3></li>
+            <li>
+              <h3>LIVING</h3>
+            </li>
             <li>
               <a href="#">At Home|</a>
             </li>
@@ -708,13 +710,15 @@
             </li>
             <li>
               <a href="#">Travel</a>
-            </li>            
+            </li>
           </ul>
 
         </section>
         <section class="more">
           <ul>
-            <li><h3>MORE</h3></li>
+            <li>
+              <h3>MORE</h3>
+            </li>
             <li>
               <a href="#">Reader Center</a>
             </li>
@@ -759,21 +763,40 @@
 
       </div>
       <div class="configuration">
+        <h3>SUBSCRIBE</h3>
         <ul class="subscribe">
-          <li><h3>SUBSCRIBE</h3></li>
-          <li class="home-delivery">
-            <img src="https://img.icons8.com/material/24/000000/door-to-door-delivery.png" alt=""/>
-            <p>Home Delivery</p>            
+
+
+          <li class="home-delivery pointer group">
+            <img class="icon" src="https://img.icons8.com/material/24/000000/door-to-door-delivery.png" alt="" />
+            <p>Home Delivery</p>
           </li>
-          <li class="digital-subscriptions">
-            <img src="https://www.nytimes.com/favicon.ico" alt=""/>
+          <li class="pointer digital-subscriptions group">
+            <img class="icon" src="https://www.nytimes.com/favicon.ico" alt="" />
+            <p>Digital Subscriptions</p>
+          </li>
+          <li class="games pointer group">
+            <img class="icon" src="https://img.icons8.com/material-sharp/24/000000/chessboard.png" />
+            <p>Games</p>
+          </li>
+          <li class="cooking pointer group">
+            <img class="icon" src="https://img.icons8.com/ios-filled/50/000000/restaurant--v1.png" />
+            <p>Cooking</p>
           </li>
 
         </ul>
         <ul class="small first">
-
+          <li class="pointer">Email Newsletters</li>
+          <li class="pointer">Corporate Subscriptions</li>
+          <li class="pointer">Education Rate</li>
         </ul>
         <ul class="small second">
+          <li class="pointer">Mobile Applications</li>
+          <li class="pointer">Replica Edition</Li>
+          <li class="pointer">International</li>
+          <li class="pointer">Canada</li>
+          <li class="pointer">Español</li>
+          <li class="pointer">中文网</li>
 
         </ul>
 
