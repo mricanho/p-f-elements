@@ -435,7 +435,7 @@ article .final-icons {
   display: inline-block;
 }
 
-.most-popular>* {
+.most-popular > * {
   border-bottom: 1px rgb(209, 206, 206) solid;
   padding-top: 30px;
   padding-bottom: 22px;
