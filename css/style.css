@@ -1,0 +1,618 @@
+body {
+  font-family: 'Libre Franklin', sans-serif;
+  background: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+b {
+  font-weight: bold;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.container {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  margin: 0;
+  z-index: 999;
+}
+
+.container hr {
+  margin: 0;
+}
+
+.nav-bar {
+  display: flex;
+  margin: 0 auto;
+  max-width: none;
+  padding: 2px 20px 0 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-bar .left-side {
+  float: right;
+  display: flex;
+  width: 240px;
+  margin: 10px;
+  justify-content: space-around;
+  font-weight: 650;
+}
+
+.img-tittle img {
+  width: 980px;
+}
+
+.inflation-backgorund img {
+  width: 945px;
+}
+
+.telescope-container img {
+  width: 600px;
+}
+
+.grid-space img {
+  width: 100%;
+}
+
+.grid-editors img {
+  width: 100%;
+}
+
+.nav-bar .center img {
+  width: 230px;
+}
+
+button {
+  background-color: rgb(86, 123, 149);
+  color: white;
+  border-radius: 3px;
+  padding: 11px 12px 8px 12px;
+  font-size: 11px;
+  font-weight: 700;
+  font-family: 'Libre Franklin', sans-serif;
+  white-space: nowrap;
+  line-height: 11px;
+  letter-spacing: 0.05em;
+}
+
+.sign-up button {
+  margin: 25px;
+  width: 270px;
+  height: 37px;
+  background-color: black;
+  border: none;
+  font-size: 15px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.presentation {
+  margin-top: 60px;
+}
+
+.tittle {
+  display: flex;
+  justify-content: center;
+}
+
+.tittle h1 {
+  width: 600px;
+  font-weight: 600;
+  text-align: left;
+  font-style: italic;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: 'Merriweather', serif;
+}
+
+.img-tittle div {
+  max-width: 600px;
+}
+
+.description {
+  width: inherit;
+  margin: 5px 0 40px 0;
+}
+
+.description p {
+  display: inline;
+  color: #666;
+}
+
+.p1 {
+  font-size: 10px;
+}
+
+.description .p2 {
+  font-size: 9px;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+}
+
+.presentation .info .by-info {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.social-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 600px;
+  font-size: 13px;
+  align-items: center;
+}
+
+.presentation .info .social-icons {
+  align-items: center;
+  display: flex;
+}
+
+.presentation .info .iconify {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.general-container {
+  display: flex;
+  justify-content: center;
+}
+
+article .article-container {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: 400;
+  width: 1200px;
+  margin-top: 20px;
+  display: flex;
+}
+
+article a {
+  text-decoration: underline;
+  color: #326891;
+}
+
+.first-article {
+  margin-left: 25%;
+  width: 600px;
+}
+
+.editors-pick {
+  flex-direction: column;
+  display: flex;
+  max-width: 210px;
+  justify-content: center;
+  margin-left: 5%;
+}
+
+.editors-pick hr {
+  width: 100%;
+}
+
+.p3 {
+  font-size: 14px;
+}
+
+.editors-pick p {
+  margin-left: 10px;
+}
+
+.img-editors {
+  width: 75px;
+  height: 75px;
+  margin-bottom: 10px;
+}
+
+.articles-editor {
+  display: flex;
+}
+
+.barr-h hr {
+  width: 40px;
+}
+
+.unlock-articles {
+  display: grid;
+  justify-content: center;
+}
+
+.unlock-articles .link-account {
+  font-weight: bolder;
+  text-align: center;
+}
+
+footer nav ul li a {
+  color: #666;
+}
+
+.bottom-text a {
+  color: #666;
+}
+
+.news-suggested a {
+  margin-top: -24px;
+}
+
+.unlock-articles .link-account a {
+  text-decoration: none;
+  display: block;
+  margin-top: 5px;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.inflation-theory {
+  display: flex;
+  justify-content: center;
+}
+
+.title-inflation {
+  width: 945px;
+}
+
+.title-inflation h2 {
+  margin-bottom: auto;
+}
+
+.inflation-section p {
+  font-size: 12px;
+}
+
+.title-inflation p {
+  color: #666;
+}
+
+.inflation-backgorund {
+  display: flex;
+  justify-content: center;
+}
+
+.grid-inflation {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 240px);
+  grid-template-rows: repeat(4, 150px);
+  top: -570px;
+  justify-content: center;
+  margin-bottom: -570px;
+}
+
+.grid-inflation p {
+  margin-left: 10px;
+  text-align: justify;
+}
+
+.barr-by {
+  width: 60px;
+}
+
+.telescope-container p {
+  display: inline;
+  color: #666;
+}
+
+.grid-space p {
+  cursor: pointer;
+}
+
+.grid-editors p {
+  cursor: pointer;
+}
+
+.first-article .video p {
+  display: inline-block;
+  color: #666;
+}
+
+.space-suggested .p1 {
+  text-align: right;
+}
+
+.telescope-container .p1 {
+  margin-right: 5px;
+}
+
+.grid-editors div .p1 {
+  text-align: right;
+}
+
+.first-article .video .p1 {
+  margin-right: 5px;
+}
+
+.article-container .p2 {
+  font-size: 12px;
+}
+
+.space-suggested .p2 {
+  font-size: 10px;
+}
+
+.grid-editors div .p2 {
+  font-size: 10px;
+}
+
+.bottom-text {
+  color: #666;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+article .final-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.last-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.last-section h2 {
+  font-size: 15px;
+  padding: 10px 0;
+}
+
+.suggested {
+  border-top: black 2px solid;
+  width: 852px;
+  margin-right: 40px;
+}
+
+.suggested-tittle {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.grid-suggested {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.news-suggested {
+  border: #666 solid 1px;
+  padding: 12px;
+}
+
+.img-icon {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.suggested-img {
+  width: 82px;
+}
+
+.suggested-check {
+  font-size: 45px;
+}
+
+.news-suggested h2 {
+  margin-top: -12px;
+}
+
+.most-popular {
+  width: 315px;
+  display: inline-block;
+}
+
+.most-popular > * {
+  border-bottom: 1px rgb(209, 206, 206) solid;
+  padding-top: 30px;
+  padding-bottom: 22px;
+  font-weight: 500;
+}
+
+.most-popular .no {
+  border-bottom: none;
+}
+
+.most-popular h2 {
+  border-top: black solid 1px;
+  padding-top: 20px;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: center;
+}
+
+.more-space {
+  padding: 10px 0;
+}
+
+.grid-space {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 852px;
+  column-gap: 20px;
+  row-gap: 80px;
+}
+
+.space-suggested {
+  width: 272px;
+}
+
+.paid-img {
+  height: 181px;
+}
+
+.paid-st {
+  font-size: 8px;
+  font-weight: bolder;
+}
+
+.paid-logo {
+  height: 25px;
+  width: auto !important;
+}
+
+.grid-editors {
+  width: 852px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.bottom-section {
+  display: block;
+  width: 100%;
+  margin-top: 30px;
+  border-top: 1px solid rgb(243, 243, 243);
+  height: auto;
+}
+
+.bottom-section header {
+  display: flex;
+  height: 51px;
+}
+
+.bottom-section .nyt-logo {
+  width: 250px;
+}
+
+.bottom-section .homepage {
+  width: 1650px;
+}
+
+.bottom-section .homepage a {
+  color: rgb(86, 123, 149);
+  float: right;
+  padding-top: 35px;
+}
+
+.site-index-sections {
+  display: flex;
+  font-family: Helvetica, sans-serif;
+}
+
+.bottom-section .site-index-sections .directory {
+  display: flex;
+  width: 80%;
+  padding-left: 20px;
+}
+
+.site-index-sections section {
+  flex: 1 1 0%;
+}
+
+.site-index-sections h3 {
+  font-weight: bold;
+  font-size: 13px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.site-index-sections section ul li {
+  margin-bottom: 15px;
+}
+
+.bottom-section .site-index-sections .configuration {
+  width: 20%;
+  border-left: 1px solid rgb(243, 243, 243);
+  padding-left: 10px;
+}
+
+.bottom-section .site-index-sections .configuration img {
+  height: 20px;
+}
+
+.bottom-section .configuration .first {
+  margin-bottom: 12px;
+  border-bottom: 1px solid rgb(243, 243, 243);
+}
+
+.bottom-section .configuration .small li {
+  margin-bottom: 10px;
+}
+
+.site-index-sections .configuration .subscribe li {
+  margin-bottom: 10px;
+}
+
+.site-index-sections .configuration .subscribe li p {
+  margin-left: 5px;
+}
+
+.site-index-sections .configuration .group {
+  display: flex;
+  width: 200px;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+footer {
+  display: block;
+  align-items: center;
+  width: 100%;
+  border-top: 1px solid rgb(243, 243, 243);
+  margin-top: 15px;
+  margin-bottom: 100px;
+  padding-top: 10px;
+}
+
+footer nav {
+  display: block;
+  font-weight: 400;
+  text-align: center;
+}
+
+footer nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.buy-acces {
+  border: black 1px solid;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+}
+
+.acces-more {
+  display: grid;
+  height: 55px;
+  grid-template-columns: 16fr 4fr 2fr;
+}
+
+.acces-more * {
+  align-self: center;
+}
+
+.expand {
+  width: 160px;
+  margin-left: 2px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.upward {
+  font-size: 25px;
+}
