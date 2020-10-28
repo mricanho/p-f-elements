@@ -2,7 +2,7 @@
 
 In this project we clone a New York Times article.
 
-![screenshot](../featureDev/screenshot.png) 
+![screenshot](../featureDev/screenshot.jpeg) 
 
 <h2>Built with</h2>
 <ul>
