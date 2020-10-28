@@ -237,6 +237,10 @@ article a {
   text-align: center;
 }
 
+footer nav ul li a {
+  color: #666;
+}
+
 .bottom-text a {
   color: #666;
 }
@@ -321,7 +325,11 @@ article a {
   color: #666;
 }
 
-.grid-editors div .p1 {
+.news-suggested .p1 {
+  font-size: 11px;
+}
+
+.space-suggested .p1 {
   text-align: right;
   font-size: 10px;
 }
@@ -331,10 +339,9 @@ article a {
   margin-right: 5px;
 }
 
-.space-suggested .p1 {
+.grid-editors div .p1 {
   text-align: right;
   font-size: 10px;
-  columns: #bbb8b8;
 }
 
 .first-article .video .p1 {
@@ -396,10 +403,6 @@ article .final-icons {
 .news-suggested {
   border: #666 solid 1px;
   padding: 12px;
-}
-
-.news-suggested .p1 {
-  font-size: 11px;
 }
 
 .img-icon {
@@ -511,10 +514,6 @@ article .final-icons {
 
 .bottom-section .homepage {
   width: 950px;
-}
-
-footer nav ul li a {
-  color: #666;
 }
 
 .bottom-section .homepage a {
