@@ -2,7 +2,9 @@
 
 In this project we clone a New York Times article.
 
-![screenshot](../featureDev/screenshot.jpeg) 
+![screenshot](../featureDev/screenshot.jpeg)
+
+In this project we use, flex-box, grid, float,
 
 <h2>Built with</h2>
 <ul>
@@ -16,11 +18,13 @@ In this project we clone a New York Times article.
 <h2>Authors</h2>
 <p><strong>Gustavo Sanmartin</strong></p>
 <ul>
-  <li>Github: <a href="https://github.com/gasb150">@JTavoSanmartin</a>
+  <li>Github: <a href="https://github.com/gasb150">@gasb150</a>
+  <li>LinkedIn: <a href="https://www.linkedin.com/in/gustavo-sanmartin-b3b68261/">
 </ul>
 <p><strong>Miguel Ricaño</strong></p>
 <ul>
   <li>Github: <a href="https://github.com/mricanho">@MiguelRicaño</a>
+  <li>LinkedIn:<a href="https://www.linkedin.com/in/mricanho/"></a></li>
 </ul>
   
 <h2>Contributing</h2>
