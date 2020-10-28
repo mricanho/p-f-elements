@@ -503,8 +503,7 @@ article .final-icons {
 
 .bottom-section {
   display: block;
-  margin-left: 18%;
-  margin-right: 18%;
+  width: 100%;
   margin-top: 30px;
   border-top: 1px solid rgb(243, 243, 243);
   height: auto;
@@ -520,7 +519,7 @@ article .final-icons {
 }
 
 .bottom-section .homepage {
-  width: 950px;
+  width: 1650px;
 }
 
 .bottom-section .homepage a {
@@ -539,6 +538,7 @@ article .final-icons {
 .bottom-section .site-index-sections .directory {
   display: flex;
   width: 80%;
+  padding-left: 20px;
 }
 
 .site-index-sections section {
@@ -598,8 +598,7 @@ article .final-icons {
 footer {
   display: block;
   align-items: center;
-  margin-left: 18%;
-  margin-right: 18%;
+  width: 100%;
   border-top: 1px solid rgb(243, 243, 243);
   margin-top: 15px;
   margin-bottom: 20px;
