@@ -70,6 +70,18 @@ b {
   width: 230px;
 }
 
+article button{
+  background-color: rgb(86, 123, 149);
+  color: white;
+  border-radius: 3px;
+  padding: 11px 12px 8px 12px;
+  font-size: 11px;
+  font-weight: 700;
+  font-family: 'Libre Franklin', sans-serif;
+  white-space: nowrap;
+  line-height: 11px;
+  letter-spacing: 0.05em;
+}
 .sign-up button {
   margin: 25px;
   width: 270px;
@@ -79,7 +91,6 @@ b {
   font-size: 15px;
 }
 
-article button,
 .nav-bar .right-side button {
   background-color: rgb(86, 123, 149);
   color: white;
@@ -96,7 +107,6 @@ article button,
 .main {
   display: flex;
   justify-content: center;
-
 }
 
 .presentation {
@@ -316,8 +326,8 @@ footer nav ul li a {
   cursor: pointer;
 }
 
-.first-article .video {
-  border: 0px;
+.first-article .video iframe {
+  border-width: 0px;
 }
 
 .first-article .video p {
