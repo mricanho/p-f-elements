@@ -92,8 +92,6 @@ button {
   font-size: 15px;
 }
 
-
-
 .main {
   display: flex;
   justify-content: center;
@@ -206,9 +204,11 @@ article a {
 .editors-pick hr {
   width: 100%;
 }
+
 .p3{
   font-size: 14px;
 }
+
 .editors-pick p {
   margin-left: 10px;
 }
@@ -272,7 +272,7 @@ h2 {
   margin-bottom: auto;
 }
 
-.inflation-section p{
+.inflation-section p {
   font-size: 12px;
 }
 
@@ -297,7 +297,7 @@ h2 {
 
 .grid-inflation p {
   margin-left: 10px;
-    text-align: justify;
+  text-align: justify;
 }
 
 .barr-by {
@@ -337,7 +337,8 @@ h2 {
 .first-article .video .p1 {
   margin-right: 5px;
 }
-.article-container .p2{
+
+.article-container .p2 {
   font-size: 12px;
 }
 
@@ -365,7 +366,8 @@ article .final-icons {
   justify-content: center;
   margin-top: 50px;
 }
-.last-section h2{
+
+.last-section h2 {
   font-size: 15px;
   padding: 10px 0;
 }
@@ -429,7 +431,7 @@ article .final-icons {
 
 .most-popular h2 {
   border-top: black solid 1px;
-  padding-top: 20px;  
+  padding-top: 20px; 
 }
 
 .sign-up {
@@ -582,7 +584,8 @@ footer nav ul {
   display: flex;
   justify-content: space-around;
 }
-.buy-acces{
+
+.buy-acces {
   border: black 1px solid;
   width: 100%;
   display: flex;
@@ -592,21 +595,23 @@ footer nav ul {
   right: 0;
   background-color: white;
 }
-.acces-more{
+
+.acces-more {
   display: grid;
   height: 55px;
-  grid-template-columns: 16fr 4fr 2fr; 
+  grid-template-columns: 16fr 4fr 2fr;
 }
-.acces-more *{
+
+.acces-more * {
   align-self: center;
 }
-.expand{
+.expand {
   width: 160px;
   margin-left: 2px;
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
 }
 
-.upward{
+.upward {
   font-size: 25px;
 }
