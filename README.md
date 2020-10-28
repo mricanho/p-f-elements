@@ -4,7 +4,7 @@ In this project we clone a New York Times article.
 
 ![screenshot](../featureDev/screenshot.jpeg)
 
-In this project we use, flex-box, grid, float,
+In this project we clone a New York Times article, we use: HTML and CSS (flex-box, grid, float...), the web page have a functional video seccion, and mocks news suggested.
 
 <h2>Built with</h2>
 <ul>
