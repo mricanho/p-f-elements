@@ -70,7 +70,7 @@ b {
   width: 230px;
 }
 
-article button {
+button {
   background-color: rgb(86, 123, 149);
   color: white;
   border-radius: 3px;
@@ -92,18 +92,7 @@ article button {
   font-size: 15px;
 }
 
-.nav-bar .right-side button {
-  background-color: rgb(86, 123, 149);
-  color: white;
-  border-radius: 3px;
-  padding: 11px 12px 8px 12px;
-  font-size: 11px;
-  font-weight: 700;
-  font-family: 'Libre Franklin', sans-serif;
-  white-space: nowrap;
-  line-height: 11px;
-  letter-spacing: 0.05em;
-}
+
 
 .main {
   display: flex;
@@ -144,7 +133,7 @@ article button {
   color: #666;
 }
 
-.description .p1 {
+.p1 {
   font-size: 10px;
 }
 
@@ -217,9 +206,10 @@ article a {
 .editors-pick hr {
   width: 100%;
 }
-
-.editors-pick p {
+.p3{
   font-size: 14px;
+}
+.editors-pick p {
   margin-left: 10px;
 }
 
@@ -243,7 +233,6 @@ article a {
 }
 
 .unlock-articles .link-account {
-  font-size: 14px;
   font-weight: bolder;
   text-align: center;
 }
@@ -266,7 +255,7 @@ footer nav ul li a {
   margin-top: 5px;
 }
 
-.first-article h2 {
+h2 {
   font-weight: bold;
 }
 
@@ -280,12 +269,14 @@ footer nav ul li a {
 }
 
 .title-inflation h2 {
-  font-weight: bold;
   margin-bottom: auto;
 }
 
-.title-inflation p {
+.inflation-section p{
   font-size: 12px;
+}
+
+.title-inflation p {
   color: #666;
 }
 
@@ -306,8 +297,7 @@ footer nav ul li a {
 
 .grid-inflation p {
   margin-left: 10px;
-  font-size: 12px;
-  text-align: justify;
+    text-align: justify;
 }
 
 .barr-by {
@@ -332,31 +322,22 @@ footer nav ul li a {
   color: #666;
 }
 
-.news-suggested .p1 {
-  font-size: 11px;
-}
-
 .space-suggested .p1 {
   text-align: right;
-  font-size: 10px;
 }
 
 .telescope-container .p1 {
-  font-size: 14px;
   margin-right: 5px;
 }
 
 .grid-editors div .p1 {
   text-align: right;
-  font-size: 10px;
 }
 
 .first-article .video .p1 {
-  font-size: 14px;
   margin-right: 5px;
 }
-
-.telescope-container .p2 {
+.article-container .p2{
   font-size: 12px;
 }
 
@@ -366,10 +347,6 @@ footer nav ul li a {
 
 .grid-editors div .p2 {
   font-size: 10px;
-}
-
-.first-article .video .p2 {
-  font-size: 12px;
 }
 
 .bottom-text {
@@ -388,6 +365,10 @@ article .final-icons {
   justify-content: center;
   margin-top: 50px;
 }
+.last-section h2{
+  font-size: 15px;
+  padding: 10px 0;
+}
 
 .suggested {
   border-top: black 2px solid;
@@ -397,8 +378,8 @@ article .final-icons {
 
 .suggested-tittle {
   display: flex;
-  justify-content: space-around;
-  padding: 20px;
+  justify-content: space-between;
+  padding: 20px 0;
 }
 
 .grid-suggested {
@@ -448,8 +429,7 @@ article .final-icons {
 
 .most-popular h2 {
   border-top: black solid 1px;
-  padding-top: 20px;
-  font-weight: bold;
+  padding-top: 20px;  
 }
 
 .sign-up {
@@ -458,7 +438,6 @@ article .final-icons {
 }
 
 .more-space {
-  font-size: 15px;
   padding: 10px 0;
 }
 
@@ -483,15 +462,9 @@ article .final-icons {
   font-weight: bolder;
 }
 
-#paid-logo {
+.paid-logo {
   height: 25px;
-  width: auto;
-}
-
-.editors-tittle {
-  font-size: 15px;
-  padding: 10px 0;
-  font-weight: bold;
+  width: auto !important;
 }
 
 .grid-editors {
@@ -523,7 +496,6 @@ article .final-icons {
 }
 
 .bottom-section .homepage a {
-  font-size: 10px;
   color: rgb(86, 123, 149);
   float: right;
   padding-top: 35px;
@@ -531,7 +503,6 @@ article .final-icons {
 
 .site-index-sections {
   display: flex;
-  font-size: 14px;
   font-family: Helvetica, sans-serif;
 }
 
@@ -566,10 +537,6 @@ article .final-icons {
   height: 20px;
 }
 
-.bottom-section .site-index-sections .configuration .small {
-  font-size: 11px;
-}
-
 .bottom-section .configuration .first {
   margin-bottom: 12px;
   border-bottom: 1px solid rgb(243, 243, 243);
@@ -601,13 +568,12 @@ footer {
   width: 100%;
   border-top: 1px solid rgb(243, 243, 243);
   margin-top: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 100px;
   padding-top: 10px;
 }
 
 footer nav {
   display: block;
-  font-size: 10px;
   font-weight: 400;
   text-align: center;
 }
@@ -615,4 +581,32 @@ footer nav {
 footer nav ul {
   display: flex;
   justify-content: space-around;
+}
+.buy-acces{
+  border: black 1px solid;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+}
+.acces-more{
+  display: grid;
+  height: 55px;
+  grid-template-columns: 16fr 4fr 2fr; 
+}
+.acces-more *{
+  align-self: center;
+}
+.expand{
+  width: 160px;
+  margin-left: 2px;
+  display: flex;
+  justify-content:space-around;
+}
+
+.upward{
+  font-size: 25px;
 }
