@@ -70,7 +70,7 @@ b {
   width: 230px;
 }
 
-article button{
+article button {
   background-color: rgb(86, 123, 149);
   color: white;
   border-radius: 3px;
@@ -82,6 +82,7 @@ article button{
   line-height: 11px;
   letter-spacing: 0.05em;
 }
+
 .sign-up button {
   margin: 25px;
   width: 270px;
@@ -326,10 +327,6 @@ footer nav ul li a {
   cursor: pointer;
 }
 
-.first-article .video iframe {
-  border-width: 0px;
-}
-
 .first-article .video p {
   display: inline-block;
   color: #666;
@@ -438,7 +435,7 @@ article .final-icons {
   display: inline-block;
 }
 
-.most-popular > * {
+.most-popular>* {
   border-bottom: 1px rgb(209, 206, 206) solid;
   padding-top: 30px;
   padding-bottom: 22px;
