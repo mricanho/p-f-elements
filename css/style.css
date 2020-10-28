@@ -1,7 +1,6 @@
 body {
   font-family: 'Libre Franklin', sans-serif;
   background: white;
-
 }
 
 a {
@@ -47,14 +46,42 @@ b {
   font-weight: 650;
 }
 
+.img-tittle img {
+  width: 980px;
+}
+
+.inflation-backgorund img {
+  width: 945px;
+}
+
+.telescope-container img {
+  width: 600px;
+}
+
+.grid-space img {
+  width: 100%;
+}
+
+.grid-editors img {
+  width: 100%;
+}
+
 .nav-bar .center img {
   width: 230px;
 }
 
-.nav-bar .right-side button,
-article button {
+.sign-up button {
+  margin: 25px;
+  width: 270px;
+  height: 37px;
+  background-color: black;
+  border: none;
+  font-size: 15px;
+}
+
+article button,
+.nav-bar .right-side button {
   background-color: rgb(86, 123, 149);
-  border-color: 1px solid rgb(50, 104, 145);
   color: white;
   border-radius: 3px;
   padding: 11px 12px 8px 12px;
@@ -63,7 +90,7 @@ article button {
   font-family: 'Libre Franklin', sans-serif;
   white-space: nowrap;
   line-height: 11px;
-  letter-spacing: .05em;
+  letter-spacing: 0.05em;
 }
 
 .main {
@@ -79,7 +106,6 @@ article button {
 .tittle {
   display: flex;
   justify-content: center;
-
 }
 
 .tittle h1 {
@@ -91,15 +117,6 @@ article button {
   margin-top: 30px;
   margin-bottom: 20px;
   font-family: 'Merriweather', serif;
-}
-
-.img-tittle img {
-  width: 980px;
-}
-
-.facebook-icon {
-  border: 20x solid black;
-
 }
 
 .img-tittle div {
@@ -159,7 +176,6 @@ article button {
   justify-content: center;
 }
 
-
 article .article-container {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 20px;
@@ -167,19 +183,16 @@ article .article-container {
   width: 1200px;
   margin-top: 20px;
   display: flex;
-
 }
 
 article a {
   text-decoration: underline;
   color: #326891;
-
 }
 
 .first-article {
   margin-left: 25%;
   width: 600px;
-
 }
 
 .editors-pick {
@@ -207,7 +220,6 @@ article a {
 
 .articles-editor {
   display: flex;
-
 }
 
 .barr-h hr {
@@ -223,6 +235,14 @@ article a {
   font-size: 14px;
   font-weight: bolder;
   text-align: center;
+}
+
+.bottom-text a {
+  color: #666;
+}
+
+.news-suggested a {
+  margin-top: -24px;
 }
 
 .unlock-articles .link-account a {
@@ -259,11 +279,6 @@ article a {
   justify-content: center;
 }
 
-.inflation-backgorund img {
-  width: 945px;
-}
-
-
 .grid-inflation {
   position: relative;
   display: grid;
@@ -284,30 +299,45 @@ article a {
   width: 60px;
 }
 
-.first-article .video p {
-  display: inline-block;
-  color: #666;
-}
-
-.first-article .video .p1 {
-  font-size: 14px;
-  margin-right: 5px;
-}
-
-.first-article .video .p2 {
-  font-size: 12px;
-}
-
-.telescope-container img {
-  width: 600px;
-}
-
 .telescope-container p {
   display: inline;
   color: #666;
 }
 
+.grid-space p {
+  cursor: pointer;
+}
+
+.grid-editors p {
+  cursor: pointer;
+}
+
+.first-article .video {
+  border: 0px;
+}
+
+.first-article .video p {
+  display: inline-block;
+  color: #666;
+}
+
+.grid-editors div .p1 {
+  text-align: right;
+  font-size: 10px;
+}
+
 .telescope-container .p1 {
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.space-suggested .p1 {
+  text-align: right;
+  font-size: 10px;
+  columns: #bbb8b8;
+}
+
+.first-article .video .p1 {
   font-size: 14px;
   margin-right: 5px;
 }
@@ -316,14 +346,22 @@ article a {
   font-size: 12px;
 }
 
+.space-suggested .p2 {
+  font-size: 10px;
+}
+
+.grid-editors div .p2 {
+  font-size: 10px;
+}
+
+.first-article .video .p2 {
+  font-size: 12px;
+}
+
 .bottom-text {
   color: #666;
   font-size: 13px;
   margin-bottom: 20px;
-}
-
-.bottom-text a {
-  color: #666;
 }
 
 article .final-icons {
@@ -335,7 +373,6 @@ article .final-icons {
   display: flex;
   justify-content: center;
   margin-top: 50px;
-
 }
 
 .suggested {
@@ -383,22 +420,17 @@ article .final-icons {
   margin-top: -12px;
 }
 
-.news-suggested a {
-  margin-top: -24px;
-}
-
 .most-popular {
   width: 315px;
   display: inline-block;
 }
 
-.most-popular>* {
+.most-popular > * {
   border-bottom: 1px rgb(209, 206, 206) solid;
   padding-top: 30px;
   padding-bottom: 22px;
   font-weight: 500;
 }
-
 
 .most-popular .no {
   border-bottom: none;
@@ -415,22 +447,9 @@ article .final-icons {
   justify-content: center;
 }
 
-.sign-up button {
-  margin: 25px;
-  width: 270px;
-  height: 37px;
-  background-color: black;
-  border: none;
-  font-size: 15px;
-}
-
 .more-space {
   font-size: 15px;
   padding: 10px 0;
-}
-
-.grid-space p {
-  cursor: pointer;
 }
 
 .grid-space {
@@ -441,23 +460,8 @@ article .final-icons {
   row-gap: 80px;
 }
 
-.grid-space img {
-  width: 100%;
-}
-
 .space-suggested {
   width: 272px;
-}
-
-.space-suggested .p1 {
-  text-align: right;
-  font-size: 10px;
-  columns: #bbb8b8;
-}
-
-.space-suggested .p2 {
-  font-size: 10px;
-  columns: #bbb8b8;
 }
 
 .paid-img {
@@ -467,13 +471,11 @@ article .final-icons {
 .paid-st {
   font-size: 8px;
   font-weight: bolder;
-
 }
 
 #paid-logo {
   height: 25px;
   width: auto;
-
 }
 
 .editors-tittle {
@@ -482,30 +484,11 @@ article .final-icons {
   font-weight: bold;
 }
 
-.grid-editors p {
-  cursor: pointer;
-}
-
 .grid-editors {
   width: 852px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
-}
-
-.grid-editors img {
-  width: 100%;
-}
-
-.grid-editors div .p1 {
-  text-align: right;
-  font-size: 10px;
-  columns: #bbb8b8;
-}
-
-.grid-editors div .p2 {
-  font-size: 10px;
-  columns: #bbb8b8;
 }
 
 .bottom-section {
@@ -522,13 +505,16 @@ article .final-icons {
   height: 51px;
 }
 
-
 .bottom-section .nyt-logo {
   width: 250px;
 }
 
 .bottom-section .homepage {
   width: 950px;
+}
+
+footer nav ul li a {
+  color: #666;
 }
 
 .bottom-section .homepage a {
@@ -550,7 +536,7 @@ article .final-icons {
 }
 
 .site-index-sections section {
-  flex: 1 1 0%
+  flex: 1 1 0%;
 }
 
 .site-index-sections h3 {
@@ -563,7 +549,6 @@ article .final-icons {
 .site-index-sections section ul li {
   margin-bottom: 15px;
 }
-
 
 .bottom-section .site-index-sections .configuration {
   width: 20%;
@@ -596,7 +581,6 @@ article .final-icons {
   margin-left: 5px;
 }
 
-
 .site-index-sections .configuration .group {
   display: flex;
   width: 200px;
@@ -604,7 +588,6 @@ article .final-icons {
   font-size: 16px;
   font-weight: bold;
 }
-
 
 footer {
   display: block;
@@ -627,8 +610,4 @@ footer nav {
 footer nav ul {
   display: flex;
   justify-content: space-around;
-}
-
-footer nav ul li a {
-  color: #666;
 }
